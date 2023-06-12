@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="random2.css">
+    <title>pagina de exemplo para portifólio</title>
+</head>
+<body>
+
+    <!--Nessa primeira parte, temos o header, o 'cabeçalho' da nossa página-->
+
+    <header>
+        <section class="h1-border">
+            <h1 id="title">Meu portifólio</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Ajuda</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!--Abaixo, o primeiro bloco, responsavel pela minha apresentação-->
+
+       <section class="primeiro-bloco">
+        <h1 id="title2"><br> Oi, meu nome <br> é João Marcelo <br><span class="description">Sou o criador desse site</span></h1>
+        <p>Confira neste portifólio algum dos meus trabalhos, <br> minhas viagens e algumas fotos que eu tirei no caminho <br> A maior parte dessas fotos foram tiradas em Portugal e no Brasil</p>
+        <img id="foto-perfil" src="https://scontent.fgig4-1.fna.fbcdn.net/v/t39.30808-6/255420904_4797596726930782_8267913687310155208_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeES4Gr8IjkUt5308efqDdaNXAN3nIkKtuJcA3eciQq24nITvHHsIbGlh3MaEVikfysC7lHeeoywRP5XFz5RjdBP&_nc_ohc=Y0eMz6wffLwAX-nzSbq&_nc_ht=scontent.fgig4-1.fna&oh=00_AfBqOfRHltLIqyoiBUdQ8__wsVZZ05j-PnCu-JW_atnWAQ&oe=644C42E4" alt="imagem minha">
+       </section>
+
+       <!--Agora temos o segundo bloco, responsavel por mostrar algumas fotos que eu tirei ao longo do tempo-->
+
+       <section class="segundo-bloco">
+        <div class="titulo-segundo-bloco"><h1 id="titulo-segundo-bloco">Galeria</h1></div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/51116525906_3ae8083077.jpg"><img src="https://live.staticflickr.com/65535/51116525906_3ae8083077.jpg" alt="Céu estrelado em Petrópolis"></a>
+                <div class="img-desc">
+                    Foto em longa exposição feita em Petrópolis
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50590364453_84289f5958.jpg"><img src="https://live.staticflickr.com/65535/50590364453_84289f5958.jpg" alt="vista da rua x"></a>
+                <div class="img-desc">
+                    Foto tirada em Petrópolis, no condominio vale do sossego
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50138097168_5f5d94c667.jpg"> <img src="https://live.staticflickr.com/65535/50138097168_5f5d94c667.jpg" alt="Torre de belém"></a>
+                <div class="img-desc">
+                    Torre de belém, localizada em Lisboa - Portugal
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50051726028_256798d5a4.jpg"> <img src="https://live.staticflickr.com/65535/50051726028_256798d5a4.jpg" alt="Lisboa"></a>
+                <div class="img-desc">
+                    Vista da rua de Lisboa à noite, longa exposição
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/51115961902_1bc5c11a43.jpg"> <img src="https://live.staticflickr.com/65535/51115961902_1bc5c11a43.jpg" alt="trafego na serra fluminense"></a>
+                <div class="img-desc">
+                    Vista do tráfego descendo a serra fluminense
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50811159107_b3a7396aff.jpg"> <img src="https://live.staticflickr.com/65535/50811159107_b3a7396aff.jpg" alt="vista do jardim, estrelas"></a>
+                <div class="img-desc">
+                    Vista do jardim, muitas estrelas.
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50325206051_07c8ae6956.jpg"> <img src="https://live.staticflickr.com/65535/50325206051_07c8ae6956.jpg" alt="feira do livro em lisboa"></a>
+                <div class="img-desc">
+                    feira do livro localizada em Lisboa
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://live.staticflickr.com/65535/50590365748_35d28f718c.jpg"> <img src="https://live.staticflickr.com/65535/50590365748_35d28f718c.jpg" alt="clareira"></a>
+                <div class="img-desc">
+                    Sol batendo em uma clareira, Petrópolis.
+                </div>
+            </div>
+        </div>
+       </section>
+       
+    </main>
+</body>
+</html>
